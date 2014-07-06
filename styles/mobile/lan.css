@@ -1,0 +1,274 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-color: #d7d7d7;
+	background-image:url('../../images/background.png');
+	background-repeat:repeat;
+	color:#000305;
+	font-size:87.5%;
+	font-family: Arial, "Lucida Sans Unicode";
+	line-height: 1.5;
+	text-align:left;
+	margin:0px;
+	min-width: 350px;
+   -webkit-user-select: none; 
+   -moz-user-select: none;     
+   -ms-user-select: none;     
+   -o-user-select: none;
+   user-select: none; 
+}
+
+
+a{
+	text-decoration: none;
+	font-family: ancFont;
+}
+
+a:link, a:visited{
+	color : #CF5C3F;
+}
+
+a:hover, a:active{
+
+}
+
+.header{
+	width:100%;
+	height:45px;
+	padding-top:10px;
+}
+
+.header>div{
+	float:left;
+	display:block;	
+}
+
+
+.home{
+	-webkit-transition-property:background;
+	-webkit-transition-duration:1s;
+	-webkit-transition-timing-function:linear;
+	/* Standard syntax */
+	transition-property:background;
+	transition-duration:1s;
+	transition-timing-function:linear;
+	background: rgba(84,82,82,0.5);
+}
+
+.home:hover{
+	background: rgba(255,255,255,0.5);
+}
+.about{
+	-webkit-transition-property:background;
+	-webkit-transition-duration:1s;
+	-webkit-transition-timing-function:linear;
+	/* Standard syntax */
+	transition-property:background;
+	transition-duration:1s;
+	transition-timing-function:linear;
+	background: rgba(64,62,62,0.5);
+}
+.about:hover{
+	background: rgba(255,255,255,0.5);
+}
+.skills{
+		-webkit-transition-property:background;
+	-webkit-transition-duration:1s;
+	-webkit-transition-timing-function:linear;
+	/* Standard syntax */
+	transition-property:background;
+	transition-duration:1s;
+	transition-timing-function:linear;
+	background: rgba(44,42,42,0.5);
+}
+.skills:hover{
+	background: rgba(255,255,255,0.5);
+}
+.contact{
+		-webkit-transition-property:background;
+	-webkit-transition-duration:1s;
+	-webkit-transition-timing-function:linear;
+	/* Standard syntax */
+	transition-property:background;
+	transition-duration:1s;
+	transition-timing-function:linear;
+	background: rgba(24,22,22,0.5);
+}
+.contact:hover{
+	background: rgba(255,255,255,0.5);
+}
+
+
+.headText{
+	color:#FFFFFF;
+	font-size:1.5em;
+	margin-left:20px;
+}
+.circle{
+	margin-left:35%;
+	height:26px;
+	width:22px;
+	padding-top:3px;
+	padding-left:8px;
+	border-radius:20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	background-color: #FFF;
+}
+
+
+
+
+@font-face
+{
+	font-family: divFont;
+	src: url("../fonts/CarroisGothicSC-Regular.ttf");
+}
+
+@font-face
+{
+	font-family: ancFont;
+	src: url("../fonts/UbuntuMono-Regular.ttf");
+}
+
+
+
+	
+
+div
+{
+	font-family:divFont;
+}
+
+
+.profileBox {
+  height:50px;
+  margin-top: 20px;
+  width:80%;
+  background-color: #474747;
+  padding: 5px;
+  font-size: 2.5em;
+  color: #FFF;
+  font-family: divfont;
+}
+
+
+
+.contentBox{
+  height:100px;
+  margin-bottom:10px;
+  padding: 5px;
+  width:80%;
+  background-color: #FFF;
+  color:#474747;
+  font-size:1.3em;
+}
+
+.contentBox span~span{
+  font-size: 0.8em;
+}
+
+.homeSection{
+  background:rgba(37,35,35,0.8);
+  overflow:hidden;
+  width:85%;
+  padding-left: 15%;
+ 
+}
+.homeSection>div{
+	float:left;
+	display:block;
+}
+.homeSection div>span{
+	display:block;
+}
+
+
+
+.aboutSection{
+  background:rgba(61,61,61,0.8);
+  overflow:hidden;
+  width:90%;
+  padding-left: 5%;
+  padding-right:5%;
+}
+.aboutSection p{
+	float:left;
+	display:block;
+	color:#FFF;
+	font-family: ancFont;
+}
+
+.skillsSection{
+  background:rgba(241,97,73,0.8);
+  overflow:hidden;
+  width:90%;
+  padding-left: 5%;
+  padding-right:5%;
+  padding-top:10px;
+}
+.skillsSection>div{
+	float:left;
+	display:inline-block;
+}
+
+.barChart{
+ float:left;
+ display:block;
+ width: 80px;
+ padding:2%;
+}
+
+.barBox{
+ height:100px;
+ width:80%;
+ background-color: #fdc162;
+font-family: 'Tulpen One', cursive; 	
+font-size: 2.3em;
+color: #474747;
+padding-left:5px;
+ 
+}
+
+
+.contactSection{
+  background:rgba(109,97,73,0.9);
+  overflow:hidden;
+  width:90%;
+  padding-left: 5%;
+  padding-right:5%;
+  padding-top:20px;
+  float:left;
+  height: 100px;
+}
+
+.contactICONS{
+	font-family: 'Tulpen One', cursive; 	
+	font-size: 3em;
+ 	color:#fdc162;
+ 	padding-top: 20px;
+ 	padding-left: 30%;
+}
+
+
+.heading1{
+ font-size: 1.3em;
+ color:#CF5C3F;
+}
+
+.heading2{
+ font-size: 2em;
+ color:#fdc162;
+ font-family: 'Tulpen One', cursive;
+}
+
+.footer{
+position:fixed;
+bottom: 0px; 
+width: 100%; 
+height: 20px; 
+background:rgba(31,31,31,0.3);
+color:#FFF;
+font-family:divFont;
+font-size:90%;
+padding-top:10px;
+}
